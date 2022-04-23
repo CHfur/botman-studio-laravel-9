@@ -11,7 +11,7 @@
     "type": "project",
     "require": {
         "php": "^8.0.2",
-        "belivey/botman": "^2.6",
+        "chfur/botman": "^2.7",
         "chfur/studio-addons": "^1.7.1",
         "chfur/botman-tinker": "^1.3",
         "fideloper/proxy": "^4.4",
