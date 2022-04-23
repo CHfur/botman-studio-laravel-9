@@ -1,6 +1,6 @@
 {
-    "name": "botman/studio",
-    "description": "BotMan Chatbot framework.",
+    "name": "chfur/botman-studio",
+    "description": "Fork BotMan Chatbot framework.",
     "keywords": [
         "botman",
         "chatbot",
@@ -10,16 +10,15 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "^7.3|^8.0",
-        "botman/botman": "^2.6",
-        "botman/driver-web": "^1.5",
-        "botman/studio-addons": "^1.6",
+        "php": "^8.0.2",
+        "belivey/botman": "^2.6",
+        "chfur/studio-addons": "^1.7.1",
         "botman/tinker": "dev-master",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.12",
-        "laravel/tinker": "^2.5"
+        "laravel/framework": "^9.2",
+        "laravel/tinker": "^2.7"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.6",
@@ -53,6 +52,12 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:laravel-shift/studio-addons.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
